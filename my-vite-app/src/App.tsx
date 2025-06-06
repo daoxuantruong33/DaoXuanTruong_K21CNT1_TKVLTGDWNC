@@ -1,6 +1,6 @@
-import React from 'react';
 import UserCard from './UserCard';
 import ProductCard from './ProductCard';
+import Counter from './Counter'; // import Counter component
 
 function App() {
   const user = {
@@ -19,9 +19,12 @@ function App() {
   };
 
   return (
-    <div style={{ display: 'flex', gap: 24, padding: 20 }}>
-      <UserCard user={user} />
-      <ProductCard product={product} />
+    <div style={{ padding: 20 }}>
+      <div style={{ display: 'flex', gap: 24, marginBottom: 40 }}>
+        <UserCard user={user} />
+        <ProductCard product={product} />
+      </div>
+      <Counter />  {/* Hiển thị Counter ở đây */}
     </div>
   );
 }
