@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị B",
+      "status": "inactive"
+    },
+    {
+      "id": "1675",
+      "name": "Ngân ngổ ngáo",
+      "status": "active"
+    }
+  ]
+}
